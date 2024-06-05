@@ -1,0 +1,35 @@
+#root {
+  margin: 0 ;
+  height: 100vh;
+  width: 100%;
+} 
+
+body{
+  margin: 0;
+}
+
+.NavBar{
+  width: 100%;
+  height: fit-content;
+  background-color: transparent;
+  color: rgb(110, 229, 242);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  font-size: 2em;
+}
+
+.button-nav{
+  margin-right: 30px;
+  border: none;
+  background-color: transparent;
+  color: rgb(110, 229, 242);
+  font-size: 0.6em;
+  
+}
+
+.button-nav:hover{
+  cursor: pointer;;
+}

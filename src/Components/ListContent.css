@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin:auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(34, 34, 34, 0.5); /* Add box shadow */
+    width: 50%;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); /* Add box shadow */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* Add box shadow */
+  }
+  
+  li button {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); /* Add box shadow */
+  }
+  
+  li button:hover {
+    background-color: #d44e3f;
+  }
+
+  #button-list{
+    margin-right: 20px;
+  }
+  
+      @media (max-width: 1200px) {
+    .container {
+      width: 80%;
+    }
+  
+    input {
+      padding: 18px;
+      font-size: 1.1rem;
+    }
+  
+    button {
+      padding: 18px;
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      width: 85%;
+    }
+  
+    input {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    input {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      width: 95%;
+    }
+  
+    input {
+      font-size: 1.2rem;
+    }
+  
+    button {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .container {
+      width: 100%;
+    }
+  
+    input {
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 0.7rem;
+    }
+  }
+  
